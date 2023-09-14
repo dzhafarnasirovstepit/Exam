@@ -1,0 +1,44 @@
+.third {
+    background-color: #daa520;
+    text-align: center;
+    /* display: grid;
+    align-content: center; */
+}
+
+.third img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.third h3 {
+    padding-top: 4%;
+    color: #000;
+    font-size: 24px;
+    font-weight: 1;
+}
+
+.third p {
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.third button {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.blockthird {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdone,
+.thirdtwo,
+.thirdthree {
+    width: 360px;
+    justify-self: space-between;
+}

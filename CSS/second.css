@@ -1,0 +1,44 @@
+.second {
+    text-align: center;
+    align-content: center;
+}
+
+
+.second p, caption {
+    color: #959595;
+    width: 100%;
+}
+
+.secondone,
+.secondtwo,
+.secondthree {
+    width: 360px;
+    justify-self: space-between;
+}
+
+.second img {
+    width: 360px;
+    height: 300px;
+    padding-bottom: 4%;
+}
+
+
+.blocksecond {
+
+    /* box-sizing: border-box; */
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second a {
+    color: #337ab7;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.second a:hover {
+    text-decoration: underline;
+}
+

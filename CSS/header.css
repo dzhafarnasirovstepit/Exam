@@ -1,0 +1,38 @@
+header {
+    background-color: #222;
+    position: sticky;
+    top: 0;
+}
+
+.headerleft {
+    display: flex;
+    justify-items: flex-start;
+}
+
+.logo {
+    align-self: center;
+    color: #9d9d9d;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.logo:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+header button, input {
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+
+input,
+button {
+    padding: 6px 12px;
+}
+
+header button:active span {
+    border: 3px solid black;
+}

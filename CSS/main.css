@@ -1,0 +1,18 @@
+main {
+    display: grid;
+    grid-template-rows: 6fr 15fr 8fr;
+    
+}
+
+h1 small {
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+}
+
+h1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
