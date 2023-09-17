@@ -51,6 +51,11 @@
         padding: 10px;
     }
 
+    .blocksecond, .blockthird {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 
 }
