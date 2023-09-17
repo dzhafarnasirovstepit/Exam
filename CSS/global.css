@@ -8,15 +8,18 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     display: grid;
-    
-    /* grid-template-rows: 0.25fr 4fr 0.75fr; */
-    grid-template-rows: 0.5fr 18fr 1fr;
+
+    position: relative; 
+
+    grid-template-rows: 0.3fr 20fr 2fr;
+
+    width: 100vw;
+
 }
 
 .wrapper {
     min-width: 500px;
     max-width: 1170px;
-
     
     margin-left: auto;
     margin-right: auto;
@@ -31,6 +34,8 @@ body {
     
     min-width: 500px;
     max-width: 1170px;
+
+    max-height: max-content;
 
     margin-left: auto;
     margin-right: auto;

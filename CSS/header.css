@@ -4,16 +4,14 @@ header {
     top: 0;
 }
 
-.headerleft {
-    display: flex;
-    justify-items: flex-start;
+.logo, .burger, .headerright  {
+    display: inline-block;
 }
 
 .logo {
     align-self: center;
     color: #9d9d9d;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 1rem 12px;
 }
 
 .logo:hover {
@@ -35,4 +33,8 @@ button {
 
 header button:active span {
     border: 3px solid black;
+}
+
+.line {
+    display: none;
 }

@@ -1,8 +1,8 @@
 .third {
     background-color: #daa520;
     text-align: center;
-    /* display: grid;
-    align-content: center; */
+    display: flex;
+    align-items: center;
 }
 
 .third img {
@@ -33,12 +33,12 @@
 
 .blockthird {
     display: flex;
-    justify-content: space-between;
 }
 
 .thirdone,
 .thirdtwo,
 .thirdthree {
     width: 360px;
-    justify-self: space-between;
 }
+
+

@@ -1,6 +1,7 @@
 footer {
     display: grid;
     align-content: center;
+    justify-items: center;
 } 
 
 footer li {
