@@ -1,0 +1,68 @@
+@zero: 0;
+@auto: auto;
+@min-w: 500px;
+@max-w: 1170px;
+
+
+* {
+    margin: @zero;
+    padding: @zero;
+}
+
+body {
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    display: grid;
+
+    position: relative; 
+
+    grid-template-rows: 0.3fr 20fr 2fr;
+
+    width: 100vw;
+
+}
+
+.wrapper {
+    min-width: @min-w;
+    max-width: @max-w;
+    
+    margin-left: @auto;
+    margin-right: @auto;
+}
+
+.wrapperinheader {
+    
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    
+    min-width: @min-w;
+    max-width: @max-w;
+
+    max-height: max-content;
+
+    margin-left: @auto;
+    margin-right: @auto;
+}
+
+
+
+ul {
+    margin: @zero;
+    padding: @zero;
+}
+
+input {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

@@ -1,44 +1,36 @@
 .third {
-    background-color: #daa520;
-    text-align: center;
-    display: flex;
-    align-items: center;
+  background-color: #daa520;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
-
 .third img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
 }
-
 .third h3 {
-    padding-top: 4%;
-    color: #000;
-    font-size: 24px;
-    font-weight: 1;
+  padding-top: 4%;
+  color: #000;
+  font-size: 24px;
+  font-weight: 1;
 }
-
 .third p {
-    color: #000;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
 }
-
 .third button {
-    color: #333;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
-
 .blockthird {
-    display: flex;
+  display: flex;
 }
-
 .thirdone,
 .thirdtwo,
 .thirdthree {
-    width: 360px;
+  width: 360px;
 }
-
-

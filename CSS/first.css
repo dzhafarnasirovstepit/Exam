@@ -1,32 +1,23 @@
 .first {
-    background-color: #9acd32;
-    color: #adff2f;
-    text-align: center;
-    display: grid;
-    align-content: center;
-    /* justify-content: center; */
+  background-color: #9acd32;
+  color: #adff2f;
+  text-align: center;
+  display: grid;
+  align-content: center;
 }
-
-
-
 .first button {
-    background-color: #337ab7;
-    color: #fff;
-    padding: 6px 12px;
-    border: 1px solid #2e6da4;
-    border-radius: 4px;
-    
+  background-color: #337ab7;
+  color: #fff;
+  padding: 6px 12px;
+  border: 1px solid #2e6da4;
+  border-radius: 4px;
 }
-
 .first h1 {
-    font-size: 63px;
-    margin-top: 20px;
+  font-size: 63px;
+  margin-top: 20px;
 }
-
 .first p {
-    margin-bottom: 15px;
-    font-size: 21px;
-    font-weight: 200;
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
 }
-
-

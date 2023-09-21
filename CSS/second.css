@@ -1,47 +1,37 @@
 .second {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-
-
-.second p, caption {
-    color: #959595;
-    object-fit: cover;
+.second a {
+  color: #337ab7;
+  font-size: 24px;
+  text-decoration: none;
 }
-
+.second a:hover {
+  text-decoration: underline;
+}
+.second p {
+  color: #959595;
+  object-fit: cover;
+}
 .secondone,
 .secondtwo,
 .secondthree {
-    width: 360px;
+  width: 360px;
 }
-
 .imgtwo {
-    width: 360px;
-    height: 300px;
+  width: 360px;
+  height: 300px;
 }
-
 .imgtwo img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 4%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 4%;
 }
-
-
 .blocksecond {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
-.second a {
-    color: #337ab7;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-.second a:hover {
-    text-decoration: underline;
-}
-

@@ -1,0 +1,59 @@
+@whprc: 100%;
+@whpx: 360px;
+@of: cover;
+@fl: flex;
+@place: center;
+
+.second {
+    
+    display: @fl;
+    text-align: @place;
+    align-items: @place;
+    justify-content: @place;
+    
+    a {
+        color: #337ab7;
+        font-size: 24px;
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    p {
+        color: #959595;
+        object-fit: @of;
+    }
+
+}
+
+
+.secondone,
+.secondtwo,
+.secondthree {
+    width: @whpx;
+}
+
+.imgtwo {
+    width: @whpx;
+    height: 300px;
+
+    img {
+        object-fit: @of;
+        width: @whprc;
+        height: @whprc;
+        padding-bottom: 4%;
+    }
+}
+
+
+
+
+.blocksecond {
+    display: @fl;
+    justify-content: space-between;
+}
+
+
+

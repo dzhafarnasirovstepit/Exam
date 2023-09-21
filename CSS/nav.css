@@ -1,73 +1,57 @@
 .navigation {
-    width: 82px;
-    color: #9d9d9d;
-    text-align: center;
+  width: 82px;
+  color: #9d9d9d;
+  text-align: center;
 }
-
 nav a {
-    padding: 1.375rem 0;
+  padding: 1.375rem 0;
+  text-decoration: none;
+  color: inherit;
 }
-
-.navigation, .services {
-    display: inline-block;
-}
-
-.services {
-    width: 82px;
-    padding: 1.25rem 10px;
-    display: inline-block;
-    color: #9d9d9d;
-    text-align: center;
-}
-
-.active {
-    color: #fff;
-    background-color: #080808;
-    padding: 1.375rem 0;
-    text-align: center;
-}
-
-.services:hover {
-    color: #fff;
-    background-color: #080808;
-    padding: 1.25rem 15px;
-    text-align: left;
-}
-
-
 nav div:hover {
-    cursor: pointer;
-    color: #fff;
+  cursor: pointer;
+  color: #fff;
 }
-
-nav a {
-    text-decoration: none;
-    color: inherit;
-}
-
+.navigation,
 .services {
-    position: relative;
+  display: inline-block;
 }
-
+.services {
+  width: 82px;
+  padding: 1.25rem 10px;
+  display: inline-block;
+  color: #9d9d9d;
+  text-align: center;
+  position: relative;
+}
+.services:hover {
+  color: #fff;
+  background-color: #080808;
+  padding: 1.25rem 15px;
+  text-align: left;
+}
+.active {
+  color: #fff;
+  background-color: #080808;
+  padding: 1.375rem 0;
+  text-align: center;
+}
 .servicesmenu {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    color: #333;
-    width: 175px;
-    padding: 10px 0px;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  color: #333;
+  width: 175px;
+  padding: 10px 0px;
+  z-index: 1;
 }
-
 .servicescontent {
-    padding: 5px 10px;
+  padding: 5px 10px;
 }
-
-.services:hover .servicesmenu {
-    display: grid;
-    color: #333;
-}
-
 .servicescontent:hover {
-    background-color: #f5f5f5;
+  background-color: #f5f5f5;
+}
+.services:hover .servicesmenu {
+  display: grid;
+  color: #333;
 }
